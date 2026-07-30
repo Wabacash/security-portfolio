@@ -10,6 +10,7 @@ Independent security investigations and SOC lab practice, documented using real-
 |---|---|---|
 | 2026-07-28 | [Phishing Investigation — Domain Impersonation / Transfer-Fraud Lure](./phishing-imperialtrustgroup-2026/) | Header, SPF/DKIM/DMARC, and WHOIS analysis of a spoofed "transfer request" phishing email, mapped to MITRE ATT&CK |
 | 2026-07-29 | [Phishing Investigation — Mandrill-Relayed Fake Prime Membership Notice](./phishing-delgaop-mandrill-2026/) | Header, SPF/DKIM/DMARC alignment analysis of a spoofed membership-expiry phishing email relayed through a legitimate ESP, mapped to MITRE ATT&CK |
+| 2026-07-30 | [Threat Hunt — npm Supply-Chain Compromise via `healthchk-lib` (Registry Persistence)](./threat-hunt-healthchklib-npm-supplychain-2026/) | Splunk/Sysmon-based threat hunt reconstructing a malicious npm postinstall script, PowerShell C2 staging, and registry Run-key persistence, mapped to MITRE ATT&CK |
 
 ---
 
