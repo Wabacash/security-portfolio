@@ -13,6 +13,6 @@ Independent security investigations and SOC lab practice, documented using real-
 | 2026-07-30 | [Threat Hunt — npm Supply-Chain Compromise via `healthchk-lib` (Registry Persistence)](./threat-hunt-healthchklib-npm-supplychain-2026/) | Splunk/Sysmon-based threat hunt reconstructing a malicious npm postinstall script, PowerShell C2 staging, and registry Run-key persistence, mapped to MITRE ATT&CK |
 | 2026-08-10 | [Windows Hardening Review — Endpoint Audit](./windows-hardening-thm-2026/) | Service, registry, Defender exclusion, NTFS ACL, and BitLocker key management review on a Windows endpoint; critical finding on locally-stored BitLocker recovery key and non-GPO Defender exclusion, mapped to hardening/AV-evasion risk categories |
 | 2026-08-17 | [Website Investigation — Reconnaissance & Information Disclosure](./website-investigation.md) | Source/comment review, framework version-to-changelog vulnerability mapping (unpatched backup file exposure), CSS-based paywall bypass, robots.txt/sitemap.xml disclosure, HTTP header analysis, default credential discovery, and gobuster vhost enumeration against a simulated web app; mapped to standard recon methodology |
----
 | 2026-09-21 | [Apollo Platform (apollo.htb) — Full Compromise Walkthrough](writeups/apollo-htb-2026/README.md) | Sudo/eval privilege escalation via a root-owned systemd service (attacker-controlled command injection), plus sensitive internal credential exposure under the web root; mapped to MITRE ATT&CK |
+---
 *More write-ups added as investigations are completed.*
